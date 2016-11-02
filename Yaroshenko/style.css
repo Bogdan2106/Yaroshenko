@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image:url(images/fon.jpg);
+}
+.header_top{
+    width: 100%;
+    height: 32px;
+    background: #29488A repeat-x top;
+}
+.top_block{
+    width: 1200px;
+    color: white;
+    height: 20px;
+    font-family: Arial;
+    margin: 0 auto;
+}
+#Regist{
+    color: rgb(255, 165, 0);
+    text-decoration:none;
+}
+#Login{
+    color: rgb(255, 165, 0);
+    text-decoration:none;
+}
+#Regist:hover{
+    text-decoration: underline;
+}
+#Login:hover{
+    text-decoration: underline;
+}
+.rss-icon{
+    background:transparent
+    url(images/icon_rss.gif) no-repeat 0 0 ;
+    display: inline-block;
+    color: transparent;
+}
+.fcb-icon{
+    background: transparent
+    url(images/icon_facebook.gif) no-repeat 0 0 ;
+    display: inline-block;
+    color: transparent;
+}
+.twt-icon{
+    background: transparent
+    url(images/icon_twitter.gif) no-repeat 0 0 ;
+    display: inline-block;
+    color: transparent;
+}
+.paragraf{
+    padding-top: 7px;
+}
+.top_block_2{
+    float: left;
+    width: 50%;
+    height: 84px;
+}
+.text{
+    color: #2e4d8e;
+    float: right;
+    height: 84px;
+    text-shadow: 5px 5px 15px #848484;
+    font: normal 26px / 1.2em Arial, Helvetica, sans-serif;
+}
+.chn-region{
+    color: white;;
+    float: left;
+    background: darkgreen;
+    width: 140px;
+    height: 30px;
+    box-shadow: 7px 7px 9px -1px #3F8C00;
+    font-size: 20px;
+}
+.chn-region:hover{
+    background: darkblue;
+}
+li{
+    padding-left: 10px;
+    float:left;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #2e4d8e;
+}
+.main{
+    color:#555;
+    background: white;
+    font-weight: bold;
+    text-shadow: 5px 5px 15px #848484;
+    font-size: 16px;
+    padding: 5px 9px;
+}
+.main:hover{
+    text-shadow: none;
+}
+.other{
+    color:#3B5998;
+    font-weight: bold;
+    text-shadow: 5px 5px 15px #848484;
+    font-size: 16px;
+    padding: 16px 10px;
+}
+.other:hover{
+    background: white;
+    text-shadow: none;
+}
+.add_pub{
+    color: white;;
+    float: right;
+    background: darkgreen;
+    width: 190px;
+    height: 30px;
+    box-shadow: 7px 7px 9px -1px #3F8C00;
+    font-size: 20px;
+}
+.add_pub:hover{
+    background: darkblue;
+}
+.one {
+    padding-right: 30px;
+    color: white;;
+    float: right;
+    background: darkgreen;
+    height: 30px;
+    box-shadow: 7px 7px 9px -1px #3F8C00;
+    font-size: 20px;
+}
+.one:hover{
+    background: darkblue;
+}
+.one_1{
+    color:white;
+}
+.content{
+    width: 1200px;
+    margin: 0 auto;
+    display: inline-flex;
+}
+.container_logo{
+    width: 1200px;
+    height: 77px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.navigation{
+    width: 1200px;
+   margin: 0 auto;
+    border: 1px solid rgba(0, 0, 0,0);
+}
+.two{
+    margin-top:50px ;
+    background: linear-gradient(to top, white, #d3d3d3);
+    padding: 10px;
+    height: 90px;
+    box-shadow: 7px 7px 9px -1px #73777d;
+}
+.search{
+    height:35px;
+    width: 530px;
+    float: left;
+}
+::-ms-clear{
+    width: 0;
+    height: 0;
+}
+.all_categority{
+    height:37px;
+    width: 330px;
+}
+.qwe{
+    float: right;
+}
+.scan{
+    float: right;
+    width: 76px;
+    height: 35px;
+    background: url(images/searchBar_blue.png);
+    color: transparent;
+    cursor: pointer;
+    margin: 0 0 0 10px;
+}
+.end{
+    margin: 25px 82px 0 82px;
+    padding: 0 0 5px;
+    background: white;
+    text-transform: uppercase;
+    font: normal 18px / 1.8em Arial, Helvetica, sans-serif;
+    box-shadow: 7px 7px 9px -1px #73777d;
+}
+.qaz{
+    background: white;
+    height: 25px;
+    border-top:1px dotted black;;
+}
+.zxc{
+    margin-top: 25px;
+}
+.end_2{
+    padding: 10px 15px 10px 15px;
+}
+.sub_menu{
+    clear: left;
+    display: none;
+    background-color: #f8f8f8;
+    position: absolute;
+}
+.other.information:hover + .sub_menu, .sub_menu:hover{
+    display: block;
+}
+.sub_menu li {
+    float: none;
+}
+.sub_menu a {
+    display: block;
+    padding: 5px 0;
+    color:#555;
+    font-size: 12px;
+}
+.sub_menu a:hover {
+    text-decoration: underline;
+}
+
+
